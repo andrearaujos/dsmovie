@@ -1,9 +1,10 @@
 import MovieCard from "components/MovieCard";
 import Pagination from "components/Pagination";
 
-function Listing(){
-    return (
-        <>
+
+function Listing() {
+    return(
+        <div>
             <Pagination />
             <div className="container">
                 <div className="row">
@@ -24,8 +25,9 @@ function Listing(){
                     </div>
                 </div>
             </div>
-        </>
-    );
-}
+        </div>
 
-export default Listing
+    );
+
+}
+export default Listing;
